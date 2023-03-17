@@ -17,3 +17,7 @@ priveChange.addEventListener("change", (p)=>{
     }
 
 })
+document.querySelector(".darkctrl").addEventListener("change", function(){
+    document.body.classList.toggle("darkmode")
+    document.body.classList.toggle("bg-img")
+})
